@@ -24,6 +24,8 @@ function addAuthor(randomAuthor) {
     author.classList.add('authorDiv');
     author.textContent = randomAuthor;
     images_elm.append(author);
+
+    console.log(randomAuthor);
 }
 
   
